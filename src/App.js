@@ -15,6 +15,7 @@ import Edit from './components/edit';
 import Extrapage from './components/extra';
 import Validation from './validation/input-validation';
 import Useforms_page from './components/useforms'
+import Validation2 from './validation/useform-valid';
 
 
 
@@ -39,6 +40,7 @@ function App() {
       <Route path="/props" element={< Propspage name="Akash"/>} />
       <Route path="/extra" element={< Extrapage/>} />
       <Route path="/valid" element={< Validation/>} />
+      <Route path="/valid2" element={< Validation2/>} />
       <Route path="/useform" element={< Useforms_page/>} />
 
 
