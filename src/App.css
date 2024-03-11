@@ -1,0 +1,121 @@
+.container-top{
+  float: left;
+  padding: 0 20px;
+  font-size: 13px;
+  color: #893f03;
+  cursor: pointer;
+  border: 2px solid;
+  background-color: #FFD180;
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ui-head-grid{
+  width: 100%;
+}
+.ui-head-grid .ui-head {
+  padding: 10px 10px 0;
+}
+.ui-head-grid div {
+  float: left;
+}
+.zodiac-sign{
+  margin-top: 5px;
+    background: #fff;
+}
+.zodiac-sign [class^=col-]{
+  text-align: center;
+}
+
+.btn-flat-bg {
+  color: #733302;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: block;
+  font-size: 14px;
+}
+.zodiac-sign .br-tb {
+  border-top: 1px solid #FFE082;
+  border-bottom: 1px solid #FFE082;
+}
+.zodiac-sign .br-r {
+  border-right: 1px solid #FFE082;
+}
+.zodiac-sign .br-t {
+  border-top: 1px solid #FFE082;
+}
+.zodiac-sign .br-l {
+  border-left: 1px solid #FFE082;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  color: red;
+}
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover  {
+
+  color: red;
+} 
+
+  
+
+.ui-head{
+  padding: 10px 10px 0;
+}
+.ui-head-block-c{
+  float: left;
+}
+.ui-head-grid .ui-head-block-d {
+  float: right;
+  margin-right: 70px;
+}
+
+.btn-deep-orange {
+  color: #fff;
+  background: #FF6F00;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: box-shadow .50s;
+}
+.card-shadow {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.ui-language {
+  margin: 20px auto 0;
+  float: left;
+}
+
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
